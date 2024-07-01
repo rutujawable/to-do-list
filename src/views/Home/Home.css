@@ -1,0 +1,95 @@
+body{
+   
+    font-family: "Shadows Into Light", cursive;
+  
+  }
+.app-title{
+    text-align: center;
+}
+.todo-list-container{
+    
+    height: 500px;
+    width: 500px;
+    border-radius: 10px;
+    margin: 5px auto;
+    padding: 5px;
+    overflow-y: scroll;
+    
+   
+    margin-top: 20px;
+    background-color: white;
+
+} 
+.todo-list-container:hover{
+    box-shadow: 0 0 10px  rgba(0, 0, 0, 0.3);
+} 
+
+
+.add-input{
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    border: 1px solid black;
+    margin-right: 20px;
+}
+.add-icon{
+    height: 50px;
+    cursor: pointer;
+  
+
+}
+.add-icon:hover{
+    transform: rotate(90deg);
+    transition: 1s;
+  
+}
+.add-todo-list-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  
+
+}
+.category-select{
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 10px;
+    border: 1px solid #ccc;
+    margin-right: 12px;
+    border: 1px solid black;
+}
+.baby-img{
+    width: 781px;
+   display: flex;
+   justify-self:center;
+   margin: 5px auto;
+}
+.babypr{
+    position: relative;
+    
+}
+
+
+.baby-Title{
+    position: absolute;
+   bottom: 50%;
+   margin-left: 510px;
+   font-size: 40px;
+   
+}
+@media (min-width: 600px) and (max-width: 768px){
+    .baby-img{
+       
+        margin: 5px auto;
+        max-width: 500px;
+        height: auto;
+        border-radius: 10px;
+    }
+    .baby-Title{
+        font-size: 24px;
+      padding-left: 23px;
+      margin-left: 130px;
+      
+    }
+}
